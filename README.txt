@@ -8,7 +8,7 @@
 2 0 6 4
 
 Запустить проект можно с помощью maven:
-spring-boot:run -Dspring-boot.run.arguments=--routeFilePath={путь_к_файлу_маршрутов}
+mvn spring-boot:run -Dspring-boot.run.arguments=--routeFilePath={путь_к_файлу_маршрутов}
 
 Пример запроса к сервису:
 http://localhost:8080/api/direct?from=3&to=6
